@@ -1,0 +1,72 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.mainbody{
+  display: flex;
+  flex-direction: column;
+}
+.thinking{
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+  width: 100%;
+  padding: 8px;
+  border-radius: 16px;
+  background-color: #fff;
+  margin-top: 12px;
+
+}
+
+.thinking hr {
+  color: #f0f2f5b6;
+}
+.whatthinking{
+ display: flex;
+align-items: center;
+justify-content: center;
+ padding: 8px;
+ gap: 16px;
+}
+.thinkingicon{
+padding: 20px;
+background-color: green;
+border-radius: 50%;
+flex-grow: 1;
+}
+
+.thinkinginput,
+.thinkinginput input{
+flex-grow: 1;
+width: 100%;
+
+}
+.thinkinginput input{
+  height: 40px;
+  padding-left: 16px;
+  border-radius: 20px;
+  background-color: #f0f2f5;
+  border: none;
+}
+
+.iconpost{
+  display: flex;
+  
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.iconpostlive,.iconpostpic,.iconpostfeeling{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px;
+  margin-top: 8px;
+  border-radius: 8px;
+}
+.iconpostlive:hover,.iconpostpic:hover,.iconpostfeeling:hover{
+  background-color: #f0f2f5;
+}
